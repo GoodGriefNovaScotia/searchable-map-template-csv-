@@ -1,0 +1,15 @@
+<tr>                  
+    <td>
+        <%= obj["markerid"] %>
+    </td>                  
+    <td>
+        <%= formatAddress(obj) %><br />
+        (<a href='http://maps.google.com/?q=<%= formatAddress(obj) %>' target='_blank'>Get directions</a>)
+    </td> 
+    <td>
+        <%= obj["inperson_n_h"] %>
+    </td>                 
+    <td>
+        <%= obj["time"] %>
+    </td>
+</tr>
